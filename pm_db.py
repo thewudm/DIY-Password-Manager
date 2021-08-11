@@ -204,6 +204,9 @@ if hashed_pass != False:
         # EXIT PROGRAM AND RETURN TO TERMINAL
         if user_cmd == "x":
             break
+        
+        else:
+            print("Invalid Input")
 
 if hashed_pass == False:
     print ("Incorrect master passsword.")
